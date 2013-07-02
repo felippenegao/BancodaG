@@ -1,0 +1,22 @@
+/* desenvolvido por Bernard De Luna - www.bernarddeluna.com  / @bernarddeluna */
+
+
+
+
+/* fixing firefox bug */
+div:after, ol:after, li:after, form:after, ul:after, dl:after,q:after {content:".";display:block;clear:both;visibility:hidden;height:0;overflow:hidden;}
+
+
+/* acessibilidade */
+.acessibilidade {background: #3366ff;}
+.acessibilidade ul {padding:20px; width: 940px;height:100%;margin: 0 auto;text-align:left;position: relative;}
+.acessibilidade li {display: inline-block; float: left;margin-right:1px;}
+.acessibilidade li a { color:#fff; font-size:1.0em;padding:5px;background: #333;vertical-align: middle;display: block; height:auto;
+-moz-border-radius: 8px; -webkit-border-radius: 8px; -khtml-border-radius: 8px;border-radius: 8px;}
+.acessibilidade li a:hover {background: #4F4F4F;}
+
+/* footer */
+cite {background:#2b2b2b;margin-top:1px; display: block;height:auto;padding:10px;text-align:center;}
+cite a {color:#fff;font-size:1.2em;}
+cite a:hover {color:#F90;}
+
