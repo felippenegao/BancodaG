@@ -1,0 +1,78 @@
+/* 
+    Document   : geral
+    Created on : 09/03/2013, 20:21:55
+    Author     : Thalyta
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+root { 
+    display: block;
+}
+
+html {
+    background-color: #cccccc
+}
+
+#principal {
+    display: table;
+    margin: 0 auto;
+}
+
+#historia{
+    text-align:justify;
+    width: 760px;    
+    margin-left: -150px;
+    font-size: 15px;
+}
+
+#bread {
+    color: #3366ff;
+    font-style: inherit;
+}
+
+h1 {
+    text-align: center;
+    background-color: #3366ff;
+    color: #FFFFFF;
+}
+
+h2 {
+    text-align: center;
+    background-color: #3366ff;
+    color: #FFFFFF;
+    padding: 10px;
+    margin: 0;
+}
+
+h3 {
+    text-align: center;
+    font-size: 14px;
+}
+
+#table_index {
+    width: 100%;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+}
+
+#menu {
+    margin: 0 auto;
+    display: table;
+    padding: 0;
+}
+
+.menu_li {
+    display: inline;
+    margin-right: 1px;
+}
+
+.menu_li a {
+    background-color: #3366ff;
+    padding: 10px;
+    color: #FFFFFF;
+}
+
